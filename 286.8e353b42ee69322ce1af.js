@@ -1,0 +1,1 @@
+(self.webpackChunksimpleschool=self.webpackChunksimpleschool||[]).push([[286],{666(){},264(){},800(){}}]);
