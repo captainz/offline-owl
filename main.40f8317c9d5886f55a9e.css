@@ -9,7 +9,7 @@
 
 /* Keyboard focus ring only (pointer taps don't trigger :focus-visible), so
    it no longer lingers as an odd halo after tapping a country. */
-path[role='button'][data-v-0178eaac]:focus-visible {
+path[role='button'][data-v-695d3e59]:focus-visible {
   outline: none;
   stroke: var(--accent, #ff8a3d);
   stroke-width: 2px;
@@ -702,6 +702,9 @@ video {
 .left-0 {
   left: 0px;
 }
+.left-\[-3px\] {
+  left: -3px;
+}
 .right-0 {
   right: 0px;
 }
@@ -710,6 +713,9 @@ video {
 }
 .right-2 {
   right: 0.5rem;
+}
+.right-\[-3px\] {
+  right: -3px;
 }
 .right-\[14px\] {
   right: 14px;
@@ -720,11 +726,17 @@ video {
 .top-1 {
   top: 0.25rem;
 }
+.top-1\/2 {
+  top: 50%;
+}
 .top-\[14px\] {
   top: 14px;
 }
 .top-\[1px\] {
   top: 1px;
+}
+.isolate {
+  isolation: isolate;
 }
 .z-0 {
   z-index: 0;
@@ -772,6 +784,9 @@ video {
 }
 .-mb-4 {
   margin-bottom: -1rem;
+}
+.-mt-1 {
+  margin-top: -0.25rem;
 }
 .-mt-2 {
   margin-top: -0.5rem;
@@ -878,6 +893,9 @@ video {
 .h-\[34px\] {
   height: 34px;
 }
+.h-\[3px\] {
+  height: 3px;
+}
 .h-\[52px\] {
   height: 52px;
 }
@@ -935,6 +953,9 @@ video {
 .w-6 {
   width: 1.5rem;
 }
+.w-7 {
+  width: 1.75rem;
+}
 .w-8 {
   width: 2rem;
 }
@@ -944,8 +965,14 @@ video {
 .w-\[120px\] {
   width: 120px;
 }
+.w-\[140px\] {
+  width: 140px;
+}
 .w-\[170px\] {
   width: 170px;
+}
+.w-\[180px\] {
+  width: 180px;
 }
 .w-\[52px\] {
   width: 52px;
@@ -981,6 +1008,9 @@ video {
 .max-w-\[220px\] {
   max-width: 220px;
 }
+.max-w-\[320px\] {
+  max-width: 320px;
+}
 .max-w-\[330px\] {
   max-width: 330px;
 }
@@ -1008,6 +1038,14 @@ video {
 .shrink-0 {
   flex-shrink: 0;
 }
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-rotate-45 {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1027,6 +1065,9 @@ video {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+.list-disc {
+  list-style-type: disc;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1196,6 +1237,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(76 134 232 / var(--tw-bg-opacity, 1));
 }
+.bg-crayon-blue\/25 {
+  background-color: rgb(76 134 232 / 0.25);
+}
 .bg-crayon-green {
   --tw-bg-opacity: 1;
   background-color: rgb(76 175 110 / var(--tw-bg-opacity, 1));
@@ -1334,6 +1378,10 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
@@ -1373,6 +1421,12 @@ video {
 }
 .pl-1 {
   padding-left: 0.25rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
+}
+.pr-6 {
+  padding-right: 1.5rem;
 }
 .pt-1 {
   padding-top: 0.25rem;
@@ -1515,6 +1569,9 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
+}
+.tracking-\[\.3em\] {
+  letter-spacing: .3em;
 }
 .\!text-white {
   --tw-text-opacity: 1 !important;
