@@ -1,1 +1,0 @@
-(self.webpackChunksimpleschool=self.webpackChunksimpleschool||[]).push([[286],{4666:function(){},4264:function(){},7800:function(){}}]);
