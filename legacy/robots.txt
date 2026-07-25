@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://captainz.github.io/offline-owl/sitemap.xml
